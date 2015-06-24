@@ -1,0 +1,18 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "freegeoip",
+      "image": "fiorix/freegeoip",
+      "cpu": 512,
+      "memory": 500,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ]
+    }
+  ],
+  "family": "useful"
+}
